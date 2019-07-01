@@ -120,8 +120,8 @@ function drawOverlay(rect) {
   top.style.top = 0;
   top.style.height = rect.top + "px";
 
-  bottom.style.top = rect.bottom + "px";
   bottom.style.bottom = 0;
+  bottom.style.top = rect.bottom + "px";
   bottom.style.left = 0;
   bottom.style.right = 0;
 
